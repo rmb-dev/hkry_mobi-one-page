@@ -201,6 +201,42 @@ footer p {
   color: #a09f9f;
 }
 
+figcaption {
+	font-size: 1.8rem;
+	padding: 10px;
+}
+
+.gallery .new-product-container {
+    margin-top: 25px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.product-new {
+    display: block;
+    width: calc(25% - 10px);
+    margin: 0px 10px 10px 0px;
+    position: relative;
+    text-align: center;
+}
+
+.product-new:first-child {
+    width: calc(50% - 10px);
+    padding: 0;
+    position: relative;
+    text-align: left;
+}
+
+img {
+	width: 100%;
+}
+
+
+footer {
+    background: #f2f2f2;
+    width: 100%;
+  }
+
 
 /* colors
 #ed1e24 - red
