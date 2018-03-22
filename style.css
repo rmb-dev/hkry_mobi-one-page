@@ -27,9 +27,10 @@ a {
 }
 
 .wrapper {
+    width: 70%;
     max-width: 1280px;
     margin: 0 auto;
-}
+  }
 
 header {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(assets/breather-196130.jpg) center/cover;
@@ -98,6 +99,42 @@ li img {
   background: #A01BE7;
   padding: 50px 0;
 } */
+
+figcaption {
+	font-size: 1.8rem;
+	padding: 10px;
+}
+
+.gallery .new-product-container {
+    margin-top: 25px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.product-new {
+    display: block;
+    width: calc(25% - 10px);
+    margin: 0px 10px 10px 0px;
+    position: relative;
+    text-align: center;
+}
+
+.product-new:first-child {
+    width: calc(50% - 10px);
+    padding: 0;
+    position: relative;
+    text-align: left;
+}
+
+img {
+	width: 100%;
+}
+
+
+footer {
+    background: #f2f2f2;
+    width: 100%;
+  }
 
 
 /* colors
