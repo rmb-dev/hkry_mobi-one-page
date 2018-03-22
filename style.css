@@ -78,7 +78,7 @@ nav li a{
 
 h3 {
 	font-size: 33px;
-	font-weight: 400;
+	font-weight: 700;
   color: #1a1a1b;
 }
 
@@ -106,14 +106,12 @@ h4{
     display: block;
     width: calc(33% - 10px);
     margin: 0px 10px 10px 0px;
-    position: relative;
     text-align: center;
 }
 
 .product-new:nth-child(1) {
   width: calc(33% - 10px);
   padding: 0;
-  position: relative;
   text-align: right;
 }
 
@@ -131,6 +129,14 @@ h4{
     position: relative;
     text-align: left;
     background-color: #f2f2f2;
+}
+
+.product-new:nth-child(7) {
+  width: calc(33% - 10px);
+  padding: 0;
+  position: relative;
+  text-align: left;
+  background-color: #f2f2f2;
 }
 
 img {
@@ -153,6 +159,7 @@ footer {
   }
 
   footer .footer-content {
+    padding-top: 20px;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -167,7 +174,6 @@ footer {
 
 .footer-menu{
   width: 20%;
-  font-size: 18px;
 }
 
 .footer-menu ul {
@@ -176,11 +182,14 @@ footer {
 
 .footer-menu ul li a {
   text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #1a1a1b;
 }
 
 .footer-social{
   width: 20%;
-  font-size: 18px;
 }
 
 .footer-social ul {
@@ -189,6 +198,10 @@ footer {
 
 .footer-social ul li a {
   text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #1a1a1b;
 }
 
 .footer-text{
@@ -199,43 +212,8 @@ footer {
 
 footer p {
   color: #a09f9f;
+
 }
-
-figcaption {
-	font-size: 1.8rem;
-	padding: 10px;
-}
-
-.gallery .new-product-container {
-    margin-top: 25px;
-    display: flex;
-    flex-flow: row wrap;
-}
-
-.product-new {
-    display: block;
-    width: calc(25% - 10px);
-    margin: 0px 10px 10px 0px;
-    position: relative;
-    text-align: center;
-}
-
-.product-new:first-child {
-    width: calc(50% - 10px);
-    padding: 0;
-    position: relative;
-    text-align: left;
-}
-
-img {
-	width: 100%;
-}
-
-
-footer {
-    background: #f2f2f2;
-    width: 100%;
-  }
 
 
 /* colors
