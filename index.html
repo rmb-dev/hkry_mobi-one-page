@@ -14,11 +14,17 @@
     <div class="header-top">
       <a class="logo" alt="Logo of the company">mobi.</a>
       <nav>
-        <ul>
+        <ul class="nav clearfix">
           <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Products</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#">About</a>
+            <li><a href="#">Products</a>
+              <ul class="sub-menu">
+                <li><a href="#">One</a></li>
+                <li><a href="#">Two</a></li>
+                <li><a href="#">Three</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -47,12 +53,18 @@
         </div>
         <div class="product-new">
           <div class="container">
-            <img src="assets/sylwia-pietruszka-218324.jpg" alt="">
+            <img class="image" src="assets/sylwia-pietruszka-218324.jpg" alt="Bright design">
+            <div class="middle">
+              <div class="text">Bright design</div>
+            </div>
           </div>
         </div>
         <div class="product-new">
           <div class="container">
-            <img src="assets/sarah-dorweiler-105892.jpg" alt="">
+            <img class="image bottomItem" src="assets/sarah-dorweiler-105892.jpg" alt="White chair">
+            <div class="middle">
+              <div class="text">White chair</div>
+            </div>
           </div>
         </div>
         <div class="product-new">
@@ -66,12 +78,18 @@
         </div>
         <div class="product-new">
           <div class="container">
-            <img src="assets/atilla-taskiran-123813.jpg" alt="">
+            <img class="image" src="assets/atilla-taskiran-123813.jpg" alt="Attention to details">
+            <div class="middle">
+              <div class="text">Attention to details</div>
+            </div>
           </div>
         </div>
         <div class="product-new">
           <div class="container">
-            <img src="assets/breather-181294.jpg" alt="">
+            <img class="image" src="assets/breather-181294.jpg" alt="Style and performance">
+            <div class="middle">
+              <div class="text">Style and performance</div>
+            </div>
           </div>
         </div>
         <div class="product-new">
@@ -96,10 +114,10 @@
         </div>
         <div class="footer-menu">
           <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">PRODUCTS</a></li>
-            <li><a href="#">CONTACT</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Contact</a></li>
           </ul>
         </div>
         <div class="footer-social">
@@ -115,10 +133,10 @@
       </div>
     </section>
 
-    <section class="wrapper">
+    <div class="wrapperBottom">
       <p>Dedigned by Sylvia.io</p>
       <p>&copy;2017 hackeryou</p>
-    </section>
+    </div>
 
   </footer>
 </body>
